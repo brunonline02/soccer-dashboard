@@ -1,0 +1,25 @@
+html {
+  background: url("bg.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  padding: 10%
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  color: black;
+  background-color: lightgrey;
+  border-radius: 30px 20px 20px 30px;
+  box-shadow: rgba(0, 0, 0, 0.19) 
+  0px 10px 20px, 
+  rgba(0, 0, 0, 0.23) 
+  0px 6px 6px;
+  @media only screen and (max-width: 1024px) {
+    border-radius: 30px 30px 20px 20px 
+  } 
+}
